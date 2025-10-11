@@ -1,8 +1,8 @@
 {
-  "report_start": "2024-01-01",
+  "report_start": "2024-07-01",
   "report_end": "2024-12-31",
-  "number_of_customers": 33,
-  "average_order_value (pre-tax)": 793.35,
-  "percentage_of_returns": 12.12,
-  "total_sales_in_period (pre-tax)": 21394.62
+  "number_of_customers": 20,
+  "average_order_value (pre-tax)": 842.85,
+  "return_percentage": 0.0,
+  "total_sales": 16857.05
 }
