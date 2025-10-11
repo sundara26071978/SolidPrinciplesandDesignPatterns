@@ -1,4 +1,4 @@
-from small_chair import smallChair
+from small_chair import SmallChair
 from medium_chair import MediumChair
 from big_chair import BigChair
 
@@ -7,7 +7,7 @@ class ChairFactory:
     @staticmethod
     def create_chair(size):
         if size == "small":
-            return smallChair()
+            return SmallChair()
         elif size == "medium":
             return MediumChair()
         elif size == "big":
