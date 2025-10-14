@@ -21,6 +21,7 @@ class SpanishLocalizer:
 class EnglishLocalizer: 
     def localize(self, msg):
         return msg
+    
 def LocalizerFactory(language="English"):
     localizers = {
         "French": FrenchLocalizer,
@@ -28,6 +29,7 @@ def LocalizerFactory(language="English"):
         "Spanish": SpanishLocalizer,
     }
     return localizers[language]()
+
 if __name__ == "__main__":
     f = LocalizerFactory("French")
     e = LocalizerFactory("English")
